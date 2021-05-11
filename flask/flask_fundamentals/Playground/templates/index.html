@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>play ground</title>
+     <style>
+     .container{
+        text-align: center;
+     }
+         
+     .square{
+        width: 250px;
+        height: 250px;
+        background-color: rgb(22, 133, 177);
+        display: inline-block;
+        border: 5px solid;
+        margin-left: 5px;
+     }     
+     </style>   
+    </head>
+    <body>
+        
+        
+            <div class="container"> 
+                <h1>wellcome!</h1>
+                {% for x in range(num_square): %}
+                    <div class="square"style= "background-color:{{square_color}}"></div>
+                    {% endfor %}
+
+            </div>
+        
+
+
+
+
+    </body>
+
+
+
+
+</html>
