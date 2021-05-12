@@ -1,0 +1,12 @@
+td{
+    border: solid #a51d1d;
+    margin: 0;
+    color: rgb(30, 210, 39);
+    
+}
+
+th{
+    border: solid #261da5;;
+    margin: 0;
+    color: rgb(207, 197, 49);
+}
