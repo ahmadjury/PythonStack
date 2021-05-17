@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Counter</h1>
+    <h3>{{count}} times</h3>
+    <!-- <a href="/reset">reset</a> -->
+    <form action="/reset">
+        <button type="submit" >reset</button>
+    </form>
+    <form action="/add2">
+        <button type="submit">add2</button>
+    </form>
+    </form>
+    <form action="/addnum"  method="post">
+        <input type="number" id="num" name="num"><br>
+        <button type="submit">add_num</button>
+    </form>
+
+    <h2>REAL COUNT :{{count2}}</h2>
+
+
+</body>
+</html>
